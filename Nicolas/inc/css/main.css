@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+/**
+ * class unique
+ */
+.hide {
+    display: none;
+}
+.italic {
+    font-style: italic;
+}
+.rose {
+    font-size: inherit;
+    color : rgb(213, 158, 200);
+}
+p {
+    margin-bottom: 10px;
+}
+html, body {
+    height: 100%;
+    min-height: 800px;
+}
+@media only screen and (max-width:1024px) {
+    html {
+        width: 1024px;
+    }
+    section.index {
+        width: 90%;
+    }
+}
+@media only screen and (min-width:1025px) {
+    body, section.index {
+        width: 75%;
+        margin: auto;
+    }
+}
+html {
+    background: black url(../img/fondDecran/arcdetriomphe.jpg) no-repeat 100% 100%;
+    background-size: cover;
+}
+header, nav.nav_general {
+    margin-bottom: 20px;
+}
+header img {
+    float: left;
+    border-radius: 10px;
+}
+header, header img {
+    height: 10rem;
+}
+header h2 {
+    font-size: 8.5rem;
+    text-align: center;
+    font-family: "lucinda bright";
+    text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+}
+@media screen and (min-width:1025px) and (max-width: 1050px) {
+    header h2 {
+        font-size: 8rem;
+    }
+}
+body > footer {
+    height: 3rem;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: .3% 1.5% 0 0;
+    border-radius: 10px;
+    background-color: rgb(47, 47, 47);
+}
+section.index article footer {
+    margin-top: 50px;
+    font-size: 1.4rem    
+}
+body > footer,
+section.index article footer {
+    text-align: right;
+}
+
+/**
+ * Barre de navigation du site
+ */
+nav.nav_general {
+    height: 4em;
+    font-family: "Garamond";
+}
+nav.nav_general > ul,
+nav.nav_general > ul > li {
+    height: inherit;
+}
+nav.nav_general > ul > li {
+    width: 25%;
+    float: left;
+    display: table;
+    background-image: linear-gradient(rgb(209, 209, 209) 0%, rgb(78, 78, 78) 100%);
+    background-image: -o-linear-gradient(rgb(209, 209, 209) 0%, rgb(78, 78, 78) 100%);
+    background-image: -ms-linear-gradient(rgb(209, 209, 209) 0%, rgb(78, 78, 78) 100%);
+    background-image: -moz-linear-gradient(rgb(209, 209, 209) 0%, rgb(78, 78, 78) 100%);
+}
+nav.nav_general > ul > li > a {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 1.9rem;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+nav.nav_general > ul > li:first-child,
+nav.nav_general > ul > li:first-child a:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+nav.nav_general > ul > li:last-child,
+nav.nav_general > ul > li:last-child a:hover {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/**
+ * Barre de navigation par page
+ */
+section > nav {
+    width: 15%;
+    height: 80%;
+    float: left;
+    margin-right: 19px;
+}
+section > nav li {
+    width: 100%;
+    height: 10%;
+    display: table;
+}
+section > nav > li:first-child > a{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+section > nav > li:last-child > a{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+section > nav > li > a {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(120, 123, 126, 0.60);
+}
+@media screen and (min-width:1580px) {
+    section > nav > li > a {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:1500px) {
+    section > nav > li > a {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width:1320px) {
+    section > nav > li > a {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1320px) {
+    section > nav > li > a {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    section > nav > li > a {
+        font-size: 1.3rem;
+    }
+}
+nav.nav_general > ul > li a:hover,
+section > nav a:hover,
+.selected {
+    color : rgb(213, 158, 200);
+    background-image: linear-gradient(rgb(78, 78, 78) 0%, rgb(209, 209, 209) 100%);
+    background-image: -o-linear-gradient(rgb(78, 78, 78) 0%, rgb(209, 209, 209) 100%);
+    background-image: -ms-linear-gradient(rgb(78, 78, 78) 0%, rgb(209, 209, 209) 100%);
+    background-image: -moz-linear-gradient(rgb(78, 78, 78) 0%, rgb(209, 209, 209) 100%);
+    background-image: -webkit-linear-gradient(rgb(78, 78, 78) 0%, rgb(209, 209, 209) 100%);
+    text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+}
+button{
+    border-radius: 5px;
+    background-color: silver;
+    border: 1px solid #5d5d5d;
+}
+button:hover{
+    color: dimgray;
+    border: 1px solid #000;
+    background-color: #ffffff;
+}
+
+/**
+ * Coeur du site
+ */
+section {
+    height: calc(100% - 17rem - 60px);
+    height: -o-calc(100% - 17rem - 60px);
+    height: -ms-calc(100% - 17rem - 60px);
+    height: -moz-calc(100% - 17rem - 60px);
+    height: -webkit-calc(100% - 17rem - 60px);
+}
+section article {
+    height: 100%;
+    border-radius: 10px;
+    padding: 2rem 2.5rem;
+    font-family : "high tower text";
+    background-color: rgba(124, 124, 124, .9); 
+}
+section.index,
+section.commentaire article {
+    margin: auto
+}
+section.bioAuteur article,
+section.refAuteur article,
+section.nouvelle article {
+    float: left;
+    width: calc(85% - 20px);
+}
+section.bioAuteur article#chap1 aside,
+section.bioAuteur article#chap1 aside p,
+section.bioAuteur article#chap1 aside + p,
+section.bioAuteur article#chap2 p,
+section.refAuteur article aside h4 {
+    font-size: 1.75rem;
+    text-decoration: underline;
+}
+section.bioAuteur article#chap1 aside,
+section.refAuteur article aside h4 {
+    margin-bottom: 10px;    
+}
+
+section.bioAuteur article#chap2 {
+    text-align: center; 
+}
+section.bioAuteur article#chap2 img {
+    width: 100px;
+    margin: 40px;
+    border-radius: 20px;
+}
+section.bioAuteur article ul,
+section.refAuteur article aside {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px silver solid;
+    background-color: rgba(150, 150, 150, 0.8);
+}
+section.bioAuteur article ul > li:first-child {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+} 
+section.bioAuteur article ul > li:nth-child(2) > p {
+    font-size: 1.5rem;
+}
+section.refAuteur article aside p:nth-child(3), section.bioAuteur article ul > li:nth-child(3) {
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+section.nouvelle article {
+    float: right;
+    font-family : "high tower text";
+}
+section.nouvelle article p,
+section.nouvelle article p > span,
+section.index article p,
+section.commentaire article p,
+section.bioAuteur article#chap3 p {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+section.refAuteur article aside > h3 > a,
+section.bioAuteur article#chap3 p:first-child {
+    font-size: 1.8rem;
+}
+section.commentaire input:first-child {
+    margin-bottom: 20px;    
+}
+section.bioAuteur article#chap3 p:last-child {
+    font-size: 1.2rem;
+    text-align: right;
+    margin-top: 1.3rem;
+}

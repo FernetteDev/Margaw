@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* -- Class unique -- */
+
+.italic {
+    font-style: italic;
+}
+.overflowAuto {
+    overflow: auto;
+}
+.marginTop20px {
+    margin-top: 20px;
+}
+html, body {
+    height: 100%;
+}
+html {
+    width: 100%;
+    min-width: 1200px;
+    min-height: 800px;
+    background-color: black;
+}
+body {
+    width: 85%;
+    margin: auto;
+}
+header {
+    width: 100%;
+    height: 6rem;
+    overflow: visible;
+}
+footer {
+    height: 3rem;
+    text-align: right;
+    background-color: rgb(47, 47, 47);
+}
+.retourArticles {
+    width: 300px;
+    display: block;
+    text-align: center;
+    margin: 200px auto;
+    font-size: 30px;
+}
+.bouton {
+    border: 3px solid #5d5d5d;
+    border-radius: 5px;
+    background-color: silver;
+    display: block;
+    margin: 100px auto;
+    text-align: center;
+    width: 300px;
+    font-size: 4rem;
+    
+}
+.bouton:hover, .boutonConfirm:hover {
+    border: 3px solid #000;
+    background-color: #ffffff;
+    color: dimgray;
+}
+.boutonConfirm{
+    border: 3px solid #5d5d5d;
+    border-radius: 5px;
+    background-color: silver;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    width: 150px;
+    font-size: 2rem;
+}
+section > ul {
+    margin: 30px 0;
+    width: 100%;
+}
+section > ul > li > a{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+th,td{
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid silver;
+}
+section > h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+section > h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+a.glyphicon, a, body {
+    color: black;
+}
+a.glyphicon:hover {
+    color: darkred;
+    background: none;
+}
+form, section {
+    border-radius: 10px;
+    overflow: hidden;
+}
+form{
+    margin: 5rem 30rem;
+    padding: 40px;
+    border: 1px solid silver;
+}
+input, label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+section {
+    margin-top: 20px;
+    font-family: sans-serif;
+    height: calc(100% - 9rem - 40px);
+    height: -o-calc(100% - 9rem - 40px);
+    height: -ms-calc(100% - 9rem - 40px);
+    height: -moz-calc(100% - 9rem - 40px);
+    background-color: rgba(124,124,124, .9);
+    height: -webkit-calc(100% - 9rem - 40px);
+}
+table {
+    margin: auto;
+}
+#changeRef {
+    text-align: center;
+    margin-bottom: 30px;
+}
+caption {
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+}
