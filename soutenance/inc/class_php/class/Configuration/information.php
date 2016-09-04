@@ -9,7 +9,7 @@ class Information {
     /**
     * Chemin racine du site.
     */
-    const CHEMIN_RACINE = "C:/wamp/www/soutenance/"; //Pour Dev
+    const CHEMIN_RACINE = "C:/wamp/www/Margaw/soutenance/"; //Pour Dev
     //const CHEMIN_RACINE = "/home/vsftpd/margaw_l2h5/margaw_l2h5/"; // Pour serveur Prod
     const autoload_ext = '.php';
     /**

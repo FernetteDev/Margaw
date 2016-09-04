@@ -27,9 +27,6 @@
 		.sommaire_categories td {
 			font-size: 18px;
 		}
-		.body {
-
-		}
 		.page_section {
 			background-color: darkgrey;
 			font-size:22px;
@@ -52,7 +49,7 @@
 
 	</style>
 
-	<page class="couverture" style="text-align: center;" backtop="80px" backbottom="100px" backleft="30px" backright="30px">
+	<page pageset="new" class="couverture" style="text-align: center;" backtop="80px" backbottom="100px" backleft="30px" backright="30px">
 		<table>
 			<tr><td style="width:100%;"><img style="width:250px" src="inc/img/logo_doranco.jpg" alt="Logo centre de formation Doranco Espace
 			Multimédia"></td></tr>
@@ -146,19 +143,19 @@
 				<td></td>
 				<td>- Objectif du site</td>
 				<td>...............................................................</td>
+				<td>Page 3</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>- Zoning</td>
+				<td>...............................................................</td>
 				<td>Page 4</td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>- Arborescence du site</td>
 				<td>...............................................................</td>
-				<td>Page</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>- Zonning</td>
-				<td>...............................................................</td>
-				<td>Page</td>
+				<td>Page 5</td>
 			</tr>
 		</table>
 
@@ -252,7 +249,7 @@
 	<!-- ## sommaire validé ## -->
 	<!-- ##################### -->
 
-	<page pageset="new" class="body" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
 
 		<page_header></page_header>
 
@@ -328,8 +325,10 @@
 		<table class="page_contenu">
 			<tr>
 				<td style="width:10%"></td>
-				<td style="width:90%">L'adresse du site web : http://margaw.livehost.fr<br><br>Le site porte le nom du protagoniste : Margaw. On va
-					y suivre durant neuf chapitre cette personne aux idées noire dont on ne sait rien du tout.</td>
+				<td style="width:90%">
+					L'adresse du site web : http://margaw.livehost.fr<br><br>
+					Le site porte le nom du protagoniste : Margaw. On va y suivre durant neuf chapitre cette personne aux idées noire dont on ne sait rien du tout.
+				</td>
 			</tr>
 		</table>
 
@@ -344,12 +343,10 @@
 				<td style="width:10%;"></td>
 				<td style="width:90%;">
 					Pour développer ce projet dans son intégralité, j'ai dû revétir plusieurs "casquettes" :<br><br>
-					<span class="blue">Chef de projet :</span> Gestion de projet depuis l'établissement du cahier des charges jusqu'à la mise en 
-					ligne du site
-					.<br>
-					<span class="blue">Graphiste :</span> Graphiste Création du logo de Margaw (Illustrator).<br>
-					<span class="blue">Webdesigner :</span> Création du design du site et intégration des données.<br>
-					<span class="blue">Développeur :</span> Développement du code du site en PHP5, HTML5/CSS3.<br>
+					<span class="blue">Chef de projet :</span>Gestion de projet depuis l'établissement du cahier des charges jusqu'à la mise en ligne du site.<br>
+					<span class="blue">Graphiste :</span>Graphiste Création du logo de Margaw (Illustrator).<br>
+					<span class="blue">Webdesigner :</span>Création du design du site et intégration des données.<br>
+					<span class="blue">Développeur :</span>Développement du code du site en PHP5, HTML5/CSS3.<br>
 				</td>
 			</tr>
 		</table>
@@ -363,14 +360,19 @@
 		<table class="page_contenu">
 			<tr>
 				<td style="width:10%"></td>
-				<td style="width:90%"></td>
+				<td style="width:90%">
+					Le site à pour objectif de permettre à l'auteur de réaliser son rêve en de contant l'histoire de Margaw un
+					personnage énigmatique et autobiographique aux travers de neuf chapitres.
+				</td>
 			</tr>
 		</table>
-
-		<table class="page_titre">
+		<table class="page_contenu">
 			<tr>
-				<td></td>
-				<td></td>
+				<td style="width:10%"></td>
+				<td style="width:90%">
+					Ce site est aussi pour moi une façon de montrer mes compétences au travers de divers techniques de programmation que je
+					développerai tout au long de cette présentation.
+				</td>
 			</tr>
 		</table>
 
@@ -385,6 +387,79 @@
 
 	</page>
 
+	<!-- ################### -->
+	<!-- ## page 3 validé ## -->
+	<!-- ################### -->
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+
+		<page_header></page_header>
+
+		<table class="page_titre" style="margin-top: 0">
+			<tr>
+				<td style="width:5%"></td>
+				<td style="width:95%">Zoning</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:10%"></td>
+				<td style="width:90%">Schéma du zoning du site.</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:100%">
+					<img src="inc/img/zoning.jpg" style="width:80%; margin-left: 70px;" alt="">
+				</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 4</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+
+	</page>
+
+	<!-- ################### -->
+	<!-- ## page 4 validé ## -->
+	<!-- ################### -->
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+
+		<page_header></page_header>
+
+		<table class="page_titre" style="margin-top: 0">
+			<tr>
+				<td style="width:5%"></td>
+				<td style="width:95%">Arborescence du site</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:100%">
+					<img src="inc/img/arborescence.jpg" style="width:80%; margin-left: 70px;" alt="">
+				</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 5</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+
+	</page>
+
+
 
 <?php
 	$contenu = ob_get_clean();
@@ -392,7 +467,7 @@
 		$pdf = new HTML2PDF('P','A4','fr');
 		$pdf->pdf->SetDisplayMode('fullpage');
 		$pdf->writeHTML($contenu);
-		$pdf->Output('soutenance.pdf');
+		$pdf->Output('Soutenance_Mr_Fernette.pdf');
 
 	} catch(HTML2PDF_exception $exception) {
 		die($exception);
