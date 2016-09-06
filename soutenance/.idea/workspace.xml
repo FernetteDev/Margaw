@@ -32,8 +32,8 @@
       <file leaf-file-name="pdf.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pdf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="449" column="0" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+            <state relative-caret-position="-2">
+              <caret line="424" column="22" selection-start-line="424" selection-start-column="22" selection-end-line="424" selection-end-column="22" />
               <folding>
                 <element signature="e#343#363#0#HTML" expanded="false" />
                 <element signature="e#384#410#0#HTML" expanded="false" />
@@ -209,9 +209,6 @@
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
-    <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -242,14 +239,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <method />
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -269,15 +264,15 @@
       <workItem from="1471331757514" duration="77443000" />
       <workItem from="1471849256319" duration="3975000" />
       <workItem from="1471933778282" duration="33379000" />
-      <workItem from="1472152747538" duration="11204000" />
+      <workItem from="1472152747538" duration="13052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144708000" />
+    <option name="totallyTimeSpent" value="146556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07622601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -956,8 +951,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pdf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="449" column="0" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+        <state relative-caret-position="-2">
+          <caret line="424" column="22" selection-start-line="424" selection-start-column="22" selection-end-line="424" selection-end-column="22" />
           <folding>
             <element signature="e#343#363#0#HTML" expanded="false" />
             <element signature="e#384#410#0#HTML" expanded="false" />
