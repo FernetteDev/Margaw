@@ -170,13 +170,13 @@
 				<td style="width:5%;"></td>
 				<td style="width:35%;">- Environnement du site</td>
 				<td style="width:50%;">...............................................................</td>
-				<td style="width:10%">Page</td>
+				<td style="width:10%">Page 6</td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>- Charte graphique</td>
 				<td>...............................................................</td>
-				<td>Page</td>
+				<td>Page 7</td>
 			</tr>
 			<tr>
 				<td></td>
@@ -459,7 +459,120 @@
 
 	</page>
 
+	<!-- ################### -->
+	<!-- ## page 5 validé ## -->
+	<!-- ################### -->
 
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+
+		<page_header></page_header>
+
+		<table class="page_section" style="margin-top:0;">
+			<tr>
+				<td style="width:100%;">3 - Développement du site</td>
+			</tr>
+		</table>
+
+		<table class="page_titre">
+			<tr>
+				<td style="width:5%"></td>
+				<td style="width:95%">Environnement du site</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:10%"></td>
+				<td style="width:90%">
+					Afin de réaliser ce site, et de mettre en pratique les connaissances aquisent tout au long de cette année au sein du centre de formation Doranco j'ai choisi le langage de programmation HTML5/CSS3 et PHP5 afin de pouvoir rendre le site dynamique de façon à ce que le site puisse être gérer entièrement par son propiétaire.
+				</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:10%"></td>
+				<td style="width:90%">
+					Je vais au travers de ce mémoire développer un certain nombre de sujet et montrer un certain nombre de technique par choix de diversité.
+					Ce site a pour vocation d'évoluer à terme afin que le propriétaire soit intégralement autonome sur l'édition de ses nouvelles.
+				</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:10%"></td>
+				<td style="width:90%">
+					J'ai envisagé trois façons de développer ce projet, en CMS, à l'aide d'un framework, ou "à l'ancienne".<br>
+					Je n'ai pas choisi le CMS car développer un site sans n'avoir rien d'autre à faire que de l'installer, je ne considère pas cela comme le travaille du développeur que j'aspire devenir.<br>
+					La maîtrise d'au moins un framework étant très apprécié auprès des entreprises j'aurais pu choisir travailler ainsi, cependant je tenais à montrer mes capacités de développeur.<br>
+					J'ai donc développé ce site "à la main", sans autres aide que les connaissances acquisent auprès du centre de formation Doranco, du travail effectué en entreprise auprès de l'équipe de Isart Digital et en particulier de mon tuteur de stage Mr Louis Nicolas, ainsi que des nombreuses heures que j'ai passé en recherche et auto-formation.
+				</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:10%"></td>
+				<td style="width:90%">
+					Etant aussi très sensibilisé par mon entourage professionnel au responsive design et le portage des différents navigateurs, le site est donc lié par média queries au format tablette.<br>
+					L'adaptation pour téléphone portable n'a pas été mis en place sur la demande du propriétaire du site. <br>
+					Concernant le portage des différents navigateurs, les principaux sont en mesure de lire correctement le code et d'afficher le site sans faute. (Internet Explorer, Chrome, Firefox).
+				</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:10%"></td>
+				<td style="width:90%">
+					Ayant une soif d'apprendre permanente, ce projet est (ou seront pour certain de mes prochains projets) en partage collaboratif via Github.<br>
+					Je remercie vraiment Mr Louis Nicolas pour sa très grande sensibilisation à l'utilisation de Git et la ligne de commande car cela m'a permis durant mon stage de pouvoir travailler en collaboration avec le reste de l'équipe et cela à permis la réalisation du projet défini lors de l'entretien et de le mettre en place au sein de l'entreprise Isart Digital.
+				</td>
+			</tr>
+		</table>
+
+		<table class="page_titre">
+			<tr>
+				<td style="width:5%"></td>
+				<td style="width:95%">Charte graphique</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:10%"></td>
+				<td style="width:90%">
+
+				</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 6</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+
+	</page>
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+
+		<page_header></page_header>
+
+		<table class="page_titre">
+			<tr>
+				<td style="width:10%"></td>
+				<td style="width:90%">Structure du site</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 7</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+
+	</page>
 
 <?php
 	$contenu = ob_get_clean();
