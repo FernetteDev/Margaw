@@ -10,8 +10,6 @@ $oPage = new Page\structure('MarGaW - Nouvelle d\'auteur', 'entete.php', 'footer
 			axis:"y"
 			});
 		});
-        
-        console.log($(window).width());
 </script>
 ');
 ?>
