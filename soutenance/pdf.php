@@ -30,21 +30,20 @@
 		.page_section {
 			background-color: darkgrey;
 			font-size:22px;
-			margin-top: 40px;
+			margin-top: 25px;
 		}
 		.page_titre {
 			color: #832a63;
 			font-size:18px;
 			margin-top: 15px;
-			text-decoration-line: underline;
 		}
 		.page_contenu {
 			font-size: 14px;
 			margin-top: 10px;
-			padding-right: 10%;
+			text-align: justify;
 		}
 		.blue {
-			color: royalblue;;
+			color: royalblue;
 		}
 
 	</style>
@@ -267,8 +266,8 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%;"></td>
-				<td style="width:90%;">FERNETTE Frédéric</td>
+				<td style="width:5%;"></td>
+				<td style="width:95%;">FERNETTE Frédéric</td>
 			</tr>
 			<tr>
 				<td></td>
@@ -296,12 +295,12 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%;"></td>
+				<td style="width:5%;"></td>
 				<td>Cursus: Diplomé du CAP & BEP Hotellerie - Restauration</td>
 			</tr>
 			<tr>
 				<td></td>
-				<td style="width:90%;">
+				<td style="width:95%;">
 					Evolution actuelle : Ancien cuisinier de formation, j'ai toujours eu une grande passion pour l'informatique. Suite à
 					divers évènement personnel, j'ai donc choisi de prendre un tournant dans ma carrière professionnelle.
 					J'ai donc choisi de repartir dans la formation d'une branche qui me passionne.
@@ -324,8 +323,8 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
+				<td style="width:5%"></td>
+				<td style="width:95%">
 					L'adresse du site web : http://margaw.livehost.fr<br><br>
 					Le site porte le nom du protagoniste : Margaw. On va y suivre durant neuf chapitre cette personne aux idées noire dont on ne sait rien du tout.
 				</td>
@@ -340,8 +339,8 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%;"></td>
-				<td style="width:90%;">
+				<td style="width:5%;"></td>
+				<td style="width:95%;">
 					Pour développer ce projet dans son intégralité, j'ai dû revétir plusieurs "casquettes" :<br><br>
 					<span class="blue">Chef de projet :</span>Gestion de projet depuis l'établissement du cahier des charges jusqu'à la mise en ligne du site.<br>
 					<span class="blue">Graphiste :</span>Graphiste Création du logo de Margaw (Illustrator).<br>
@@ -359,17 +358,16 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
-					Le site à pour objectif de permettre à l'auteur de réaliser son rêve en de contant l'histoire de Margaw un
-					personnage énigmatique et autobiographique aux travers de neuf chapitres.
+				<td style="width:5%"></td>
+				<td style="width:95%">
+					Le site à pour objectif de permettre à l'auteur de conter l'histoire de Margaw un personnage énigmatique aux pensées noire aux travers de neuf chapitres.
 				</td>
 			</tr>
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
+				<td style="width:5%"></td>
+				<td style="width:95%">
 					Ce site est aussi pour moi une façon de montrer mes compétences au travers de divers techniques de programmation que je
 					développerai tout au long de cette présentation.
 				</td>
@@ -399,12 +397,6 @@
 			<tr>
 				<td style="width:5%"></td>
 				<td style="width:95%">Zoning</td>
-			</tr>
-		</table>
-		<table class="page_contenu">
-			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">Schéma du zoning du site.</td>
 			</tr>
 		</table>
 		<table class="page_contenu">
@@ -481,16 +473,16 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
+				<td style="width:5%"></td>
+				<td style="width:95%">
 					Afin de réaliser ce site, et de mettre en pratique les connaissances aquisent tout au long de cette année au sein du centre de formation Doranco j'ai choisi le langage de programmation HTML5/CSS3 et PHP5 afin de pouvoir rendre le site dynamique de façon à ce que le site puisse être gérer entièrement par son propiétaire.
 				</td>
 			</tr>
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
+				<td style="width:5%"></td>
+				<td style="width:95%">
 					Je vais au travers de ce mémoire développer un certain nombre de sujet et montrer un certain nombre de technique par choix de diversité.
 					Ce site a pour vocation d'évoluer à terme afin que le propriétaire soit intégralement autonome sur l'édition de ses nouvelles.
 				</td>
@@ -498,8 +490,8 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
+				<td style="width:5%"></td>
+				<td style="width:95%">
 					J'ai envisagé trois façons de développer ce projet, en CMS, à l'aide d'un framework, ou "à l'ancienne".<br>
 					Je n'ai pas choisi le CMS car développer un site sans n'avoir rien d'autre à faire que de l'installer, je ne considère pas cela comme le travaille du développeur que j'aspire devenir.<br>
 					La maîtrise d'au moins un framework étant très apprécié auprès des entreprises j'aurais pu choisir travailler ainsi, cependant je tenais à montrer mes capacités de développeur.<br>
@@ -509,8 +501,8 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
+				<td style="width:5%"></td>
+				<td style="width:95%">
 					Etant aussi très sensibilisé par mon entourage professionnel au responsive design et le portage des différents navigateurs, le site est donc lié par média queries au format tablette.<br>
 					L'adaptation pour téléphone portable n'a pas été mis en place sur la demande du propriétaire du site. <br>
 					Concernant le portage des différents navigateurs, les principaux sont en mesure de lire correctement le code et d'afficher le site sans faute. (Internet Explorer, Chrome, Firefox).
@@ -519,25 +511,10 @@
 		</table>
 		<table class="page_contenu">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
+				<td style="width:5%"></td>
+				<td style="width:95%">
 					Ayant une soif d'apprendre permanente, ce projet est (ou seront pour certain de mes prochains projets) en partage collaboratif via Github.<br>
 					Je remercie vraiment Mr Louis Nicolas pour sa très grande sensibilisation à l'utilisation de Git et la ligne de commande car cela m'a permis durant mon stage de pouvoir travailler en collaboration avec le reste de l'équipe et cela à permis la réalisation du projet défini lors de l'entretien et de le mettre en place au sein de l'entreprise Isart Digital.
-				</td>
-			</tr>
-		</table>
-
-		<table class="page_titre">
-			<tr>
-				<td style="width:5%"></td>
-				<td style="width:95%">Charte graphique</td>
-			</tr>
-		</table>
-		<table class="page_contenu">
-			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">
-
 				</td>
 			</tr>
 		</table>
@@ -552,14 +529,46 @@
 		</page_footer>
 
 	</page>
+
+	<!-- ################### -->
+	<!-- ## page 6 validé ## -->
+	<!-- ################### -->
+
 	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
 
 		<page_header></page_header>
 
 		<table class="page_titre">
 			<tr>
-				<td style="width:10%"></td>
-				<td style="width:90%">Structure du site</td>
+				<td style="width:5%"></td>
+				<td style="width:95%">Charte graphique</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:100%; text-align: center">
+					<img src="inc/img/logo_margaw.png" alt="">
+				</td>
+			</tr>
+		</table>
+
+		<table class="page_contenu">
+			<tr>
+				<td style="width:5%"></td>
+				<td style="width:95%">
+					Sur la demande de l'auteur, un logo a donc été créé à l'image du site et de l'histoire du protagoniste. <br>
+					M - G - W les initiales de références de MarGaW, les lettres sont elles-même entre mélée à l'image de l'esprit tortueux et torturé du personnage.<br>
+					L'auteur à souhaité que les couleurs ternes et sombres du site soit le reflet du personnage, sombre. <br>
+					Cependant le "G" est en rose, celui-ci indique une lueur d'espoir, cette lueur qui rode dans l'esprit de Margaw sans jamais trouver la paix. Mais cette lueur existe.<br>
+					L'image de fond est elle-même terne à l'image du reste du site. C'est la place de l'étoile à Paris, proche de l'avenue de Wagram, c'est de là que viens d'ailleurs le nom du personnage, un anagramme.
+				</td>
+			</tr>
+		</table>
+
+		<table class="page_titre">
+			<tr>
+				<td style="width:5%"></td>
+				<td style="width:95%">Structure du site</td>
 			</tr>
 		</table>
 
