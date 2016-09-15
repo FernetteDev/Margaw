@@ -181,7 +181,7 @@
 				<td></td>
 				<td>- Structure du site</td>
 				<td>...............................................................</td>
-				<td>Page</td>
+				<td>Page 7²</td>
 			</tr>
 			<tr>
 				<td></td>
@@ -432,7 +432,7 @@
 				<td style="width:95%">Arborescence du site</td>
 			</tr>
 		</table>
-		<table class="page_contenu">
+		<table class="page_contenu" style="margin-top:20px">
 			<tr>
 				<td style="width:100%">
 					<img src="inc/img/arborescence.jpg" style="width:80%; margin-left: 70px;" alt="">
@@ -544,15 +544,14 @@
 				<td style="width:95%">Charte graphique</td>
 			</tr>
 		</table>
-		<table class="page_contenu">
+		<table class="page_contenu" style="margin-top:20px">
 			<tr>
-				<td style="width:100%; text-align: center">
+				<td style="width:100%;text-align: center">
 					<img src="inc/img/logo_margaw.png" alt="">
 				</td>
 			</tr>
 		</table>
-
-		<table class="page_contenu">
+		<table class="page_contenu" style="margin-top:20px">
 			<tr>
 				<td style="width:5%"></td>
 				<td style="width:95%">
@@ -571,6 +570,25 @@
 				<td style="width:95%">Structure du site</td>
 			</tr>
 		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width:5%"></td>
+				<td style="width:95%">
+					<div>Tout d'abord la racine : On va y trouver les trois éléments principaux du site.</div><br>
+					<div style="margin-left: 15px">I<span style="margin-left: 12px">-</span> Les pages du sites, en effet nous y trouverons ici toutes les pages accessible du site.</div><br>
+					<div style="margin-left: 15px">II<span style="margin-left: 7px">-</span><span style="margin-left: 3px">Le</span> dossier "inc" qui contient toutes les inclusions du site allant du fichier css au dossier contenant les classes php.</div><br>
+					<div style="margin-left: 15px">III - Le dossier "admin", on y trouvera ici tous les CRUD en fonction de ce qu'il y a à modifier sur le site. Ce dernier étant dynamique dans sa quasi totalité il est donc normal que se dossier soit le plus important.</div><br><br>
+					<div>L'accès aux pages admin étant la partie la plus sensible du site elles sont donc protégé par un code crypté et stocké en base de données.</div><br>
+					<div>Concernant la structure. L'objet PHP gère la structure html, notamment la répétition du header et de la partie haute du site jusqu'à la navigation ainsi que le footer.</div>
+					<div>Dans les photos ci-dessous, j'ai donc entouré les éléments de la structure html se rapportant au site.</div><br>
+					<div>Comme il est montré dans la deuxième partie de la deuxième image Le Haut de la page comporte deux "include". Ce sont deux éléments très important puisque ses derniers permettent de partir rechercher toutes les différentes classes utilisable dans le site.</div>
+					<div>L'include "information.php" permet de donné accès à toutes les informations du site que j'ai souhaité rendre disponible pour les autres classes, se sont majoritairement des constantes notament pour la connection à la base de données.</div>
+					<div>L'include "autoload.php" par rechercher automatiquement chercher les objets et gère seul les chemins d'accès aux objets, ceci permettant l'initialisation les objets soit directement soit précédé du namespace.</div>
+					<div>Dans le cas où, le namespace n'est pas utilisé à l'initialisation de l'objet cela veut dire que ce dernier est déclaré à l'aide de "USE" en haut de page.</div>
+				</td>
+			</tr>
+		</table>
+
 
 		<page_footer>
 			<table style="text-align: right;">
@@ -582,6 +600,149 @@
 		</page_footer>
 
 	</page>
+
+	<!-- ################### -->
+	<!-- ## page 7 validé ## -->
+	<!-- ################### -->
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+
+		<page_header></page_header>
+
+		<table class="page_contenu" style="margin-top:0">
+			<tr>
+				<td style="width:100%">
+					<div>Concernant l'objet "structure" en lui même, je vais donc commenter les deux prochaines images.</div>
+					<div>L'objet est stocké dans le namespace "Page". Dans cet objet nous pouvons constater quatre variables :</div><br>
+					<div style="margin-left:15px">La première, entouré en vert fait référence au titre que nous trouverons dans l'onglet du navigateur, lui même situé dans l'entête.</div><br>
+					<div style="margin-left:15px">La deuxième, entouré en rouge appelle le fichier "entête.php" qui contient non seulement toute la partie du header mais aussi la partie haute du site. (Logo & navigation)</div><br>
+					<div style="margin-left:15px">La troisième, entouré en jaune appelle le fichier "footer.php" ce dernier contenant lui même le contenu de la quatrième variable</div><br>
+					<div style="margin-left:15px">La quatrième, entouré en bleu, contiendra tout les fichiers Javascript qui y seront appellé.</div><br>
+					<div>Afin d'assurer un chargement plus rapide de la page, il est conseillé d'inscrire tout les codes Javascript en fin de page idéalement après le footer, c'est pourquoi la variable contenant les script est placé dans le footer qui est appelé dans le destructeur de l'objet, de cette façon je m'assure que le footer est bien appelé en dernier et donc que mes scripts soient bien appelé à la fin du chargement de ma page.</div><br>
+					<div>Sur la première image je montre le détail de l'objet structure et les actions des variables.</div>
+					<div>Initialement toutes les variables sont initialisé dans le constructeur et devraient donc théoriquement être exécuter à la suite. Cependant nous utiliserons la portée de la variable "$this->" afin de pourvoir utiliser deux des quatre variables dans le destructeur.</div>
+					<div>Dans la deuxième image je montrerais donc l'utilisation de l'objet.</div>
+					<div>Le site étant de petite envergure, à but non lucratif et n'ayant pas vocation à s'étendre beaucoup plus, il n'était pas nécessaire de créer un objet complexe.
+					En effet, l'avantage de ce "petit" objet est que tout les éléments dont nous avons besoin se trouvent directement à l'initialisation de l'objet.</div>
+					<div>J'ai pour les besoin de la présentation "ouvert" un peu plus l'objet en lui même et l'objet utilisé afin de bien montrer comment les différents paramètre sont appelé.</div>
+					<div>Concernant le quatrième paramètre, tous les script quels qu'ils soient doivent être inscrit dans entre les mêmes guillemets, en effet si ce n'est pas le cas l'objet considèrera qu'il ya plus de paramètre. Afin d'éviter cela il est conseillé soit d'alterner avec les guillemets et les doubles-guillemets, soit d'utiliser des anti-slash.</div>
+				</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+		
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 8</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+
+	</page>
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+
+		<page_header></page_header>
+
+		<table class="page_contenu" style="margin-top:0">
+			<tr>
+				<td style="width:100%; text-align: center">
+					Détail de l'objet page.
+				</td>
+			</tr>
+		</table>
+
+		<table style="margin-top: 20px">
+			<tr>
+				<td style="width:100%;text-align: center">
+					<img src="inc/img/structure_html_objet.jpg" alt="objet structure">
+				</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 9</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+	</page>
+
+	<!-- ################### -->
+	<!-- ## page 9 validé ## -->
+	<!-- ################### -->
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+
+		<page_header></page_header>
+
+		<table class="page_contenu" style="margin-top: 20px">
+			<tr>
+				<td style="width:100%;text-align: center">
+					Utilisation de l'objet structure.
+				</td>
+			</tr>
+		</table>
+
+		<table class="page_contenu" style="margin-top:0">
+			<tr>
+				<td style="width:100%; text-align: center">
+					<img src="inc/img/utilisation_objet.jpg" alt="modèle d'utilisation d'objet">
+				</td>
+			</tr>
+		</table>
+
+
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 10</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+	</page>
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+
+		<page_header></page_header>
+
+		<table class="page_contenu" style="margin-top:0">
+			<tr>
+				<td style="width:100%; text-align: center">
+
+				</td>
+			</tr>
+		</table>
+
+		<table style="margin-top: 20px">
+			<tr>
+				<td style="width:100%;text-align: center">
+
+				</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 10</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+	</page>
+
+
 
 <?php
 	$contenu = ob_get_clean();
