@@ -4,8 +4,6 @@
 	require('inc/html2pdf/vendor/autoload.php');
 	$oConnexion = new Database\Connexion();
 	$requete = $oConnexion->query('SELECT * FROM soutenance_renseigement_doranco ORDER BY id ASC');
-	//var_dump($requete);
-	//die();
 	ob_start();
 ?>
 	<style>
@@ -181,7 +179,7 @@
 				<td></td>
 				<td>- Structure du site</td>
 				<td>...............................................................</td>
-				<td>Page 7²</td>
+				<td>Page 7</td>
 			</tr>
 			<tr>
 				<td></td>
@@ -582,9 +580,6 @@
 					<div>Concernant la structure. L'objet PHP gère la structure html, notamment la répétition du header et de la partie haute du site jusqu'à la navigation ainsi que le footer.</div>
 					<div>Dans les photos ci-dessous, j'ai donc entouré les éléments de la structure html se rapportant au site.</div><br>
 					<div>Comme il est montré dans la deuxième partie de la deuxième image Le Haut de la page comporte deux "include". Ce sont deux éléments très important puisque ses derniers permettent de partir rechercher toutes les différentes classes utilisable dans le site.</div>
-					<div>L'include "information.php" permet de donné accès à toutes les informations du site que j'ai souhaité rendre disponible pour les autres classes, se sont majoritairement des constantes notament pour la connection à la base de données.</div>
-					<div>L'include "autoload.php" par rechercher automatiquement chercher les objets et gère seul les chemins d'accès aux objets, ceci permettant l'initialisation les objets soit directement soit précédé du namespace.</div>
-					<div>Dans le cas où, le namespace n'est pas utilisé à l'initialisation de l'objet cela veut dire que ce dernier est déclaré à l'aide de "USE" en haut de page.</div>
 				</td>
 			</tr>
 		</table>
@@ -611,27 +606,31 @@
 
 		<table class="page_contenu" style="margin-top:0">
 			<tr>
-				<td style="width:100%">
+				<td style="width:5%"></td>
+				<td style="width:95%">
+					<div>L'include "information.php" permet de donné accès à toutes les informations du site que j'ai souhaité rendre disponible pour les autres classes, se sont majoritairement des constantes notament pour la connection à la base de données.</div><br>
+					<div>L'include "autoload.php" par rechercher automatiquement chercher les objets et gère seul les chemins d'accès aux objets, ceci permettant l'initialisation les objets soit directement soit précédé du namespace.</div><br>
+					<div>Dans le cas où, le namespace n'est pas utilisé à l'initialisation de l'objet cela veut dire que ce dernier est déclaré à l'aide de "USE" en haut de page.</div>
+				</td>
+			</tr>
+			<tr style="margin-top: 20px">
+				<td></td>
+				<td>
 					<div>Concernant l'objet "structure" en lui même, je vais donc commenter les deux prochaines images.</div>
-					<div>L'objet est stocké dans le namespace "Page". Dans cet objet nous pouvons constater quatre variables :</div><br>
+					<div>L'objet est stocké dans le namespace "Page". <br> Dans cet objet nous pouvons constater quatre variables :</div><br>
 					<div style="margin-left:15px">La première, entouré en vert fait référence au titre que nous trouverons dans l'onglet du navigateur, lui même situé dans l'entête.</div><br>
 					<div style="margin-left:15px">La deuxième, entouré en rouge appelle le fichier "entête.php" qui contient non seulement toute la partie du header mais aussi la partie haute du site. (Logo & navigation)</div><br>
 					<div style="margin-left:15px">La troisième, entouré en jaune appelle le fichier "footer.php" ce dernier contenant lui même le contenu de la quatrième variable</div><br>
 					<div style="margin-left:15px">La quatrième, entouré en bleu, contiendra tout les fichiers Javascript qui y seront appellé.</div><br>
 					<div>Afin d'assurer un chargement plus rapide de la page, il est conseillé d'inscrire tout les codes Javascript en fin de page idéalement après le footer, c'est pourquoi la variable contenant les script est placé dans le footer qui est appelé dans le destructeur de l'objet, de cette façon je m'assure que le footer est bien appelé en dernier et donc que mes scripts soient bien appelé à la fin du chargement de ma page.</div><br>
-					<div>Sur la première image je montre le détail de l'objet structure et les actions des variables.</div>
-					<div>Initialement toutes les variables sont initialisé dans le constructeur et devraient donc théoriquement être exécuter à la suite. Cependant nous utiliserons la portée de la variable "$this->" afin de pourvoir utiliser deux des quatre variables dans le destructeur.</div>
+					<div>Sur la première image je montre le détail de l'objet "structure" et les actions des variables.</div>
+					<div>Toutes les variables sont initialisé dans le constructeur et devraient donc théoriquement être exécuter à la suite. Cependant nous utiliserons la portée de la variable "$this->" afin de pourvoir utiliser deux des quatre variables dans le destructeur.</div><br>
 					<div>Dans la deuxième image je montrerais donc l'utilisation de l'objet.</div>
 					<div>Le site étant de petite envergure, à but non lucratif et n'ayant pas vocation à s'étendre beaucoup plus, il n'était pas nécessaire de créer un objet complexe.
-					En effet, l'avantage de ce "petit" objet est que tout les éléments dont nous avons besoin se trouvent directement à l'initialisation de l'objet.</div>
-					<div>J'ai pour les besoin de la présentation "ouvert" un peu plus l'objet en lui même et l'objet utilisé afin de bien montrer comment les différents paramètre sont appelé.</div>
-					<div>Concernant le quatrième paramètre, tous les script quels qu'ils soient doivent être inscrit dans entre les mêmes guillemets, en effet si ce n'est pas le cas l'objet considèrera qu'il ya plus de paramètre. Afin d'éviter cela il est conseillé soit d'alterner avec les guillemets et les doubles-guillemets, soit d'utiliser des anti-slash.</div>
+					En effet, l'avantage de ce "petit objet" est que tous les éléments dont nous avons besoin se trouvent directement à l'initialisation de l'objet.</div><br>
+					<div>J'ai pour les besoins de la présentation "aéré" un peu plus l'objet en lui même et l'objet utilisé afin de bien montrer comment les différents paramètres sont appelé.</div>
+					<div>Concernant le quatrième paramètre, tous les scripts quels qu'ils soient doivent être inscrit dans entre les mêmes guillemets, en effet si ce n'est pas le cas l'objet considèrera qu'il ya plus de paramètre. Afin d'éviter cela il est conseillé soit d'alterner avec les guillemets et les doubles-guillemets, soit d'utiliser des anti-slash.</div>
 				</td>
-			</tr>
-		</table>
-		<table class="page_contenu">
-			<tr>
-				<td></td>
 			</tr>
 		</table>
 		
@@ -645,6 +644,10 @@
 		</page_footer>
 
 	</page>
+
+	<!-- ################### -->
+	<!-- ## page 8 validé ## -->
+	<!-- ################### -->
 
 	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
 
@@ -686,13 +689,13 @@
 
 		<table class="page_contenu" style="margin-top: 20px">
 			<tr>
-				<td style="width:100%;text-align: center">
+				<td style="width:100%;text-align: center; margin-top:0">
 					Utilisation de l'objet structure.
 				</td>
 			</tr>
 		</table>
 
-		<table class="page_contenu" style="margin-top:0">
+		<table class="page_contenu" style="margin-top:20px">
 			<tr>
 				<td style="width:100%; text-align: center">
 					<img src="inc/img/utilisation_objet.jpg" alt="modèle d'utilisation d'objet">
@@ -700,8 +703,6 @@
 			</tr>
 		</table>
 
-
-
 		<page_footer>
 			<table style="text-align: right;">
 				<tr>
@@ -710,21 +711,26 @@
 				</tr>
 			</table>
 		</page_footer>
+
 	</page>
+
+	<!-- #################### -->
+	<!-- ## page 10 validé ## -->
+	<!-- #################### -->
 
 	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
 
 		<page_header></page_header>
 
-		<table class="page_contenu" style="margin-top:0">
+		<table class="page_titre" style="margin-top:0">
 			<tr>
 				<td style="width:100%; text-align: center">
-
+					Language de programation
 				</td>
 			</tr>
 		</table>
 
-		<table style="margin-top: 20px">
+		<table class="page_contenu">
 			<tr>
 				<td style="width:100%;text-align: center">
 
@@ -735,11 +741,12 @@
 		<page_footer>
 			<table style="text-align: right;">
 				<tr>
-					<td style="width: 95%;">page 10</td>
+					<td style="width: 95%;">page 11</td>
 					<td style="width: 5%;"></td>
 				</tr>
 			</table>
 		</page_footer>
+
 	</page>
 
 
