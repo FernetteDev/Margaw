@@ -185,7 +185,7 @@
 				<td></td>
 				<td>- Langage de programmation</td>
 				<td>...............................................................</td>
-				<td>Page</td>
+				<td>Page 11</td>
 			</tr>
 			<tr>
 				<td></td>
@@ -724,16 +724,18 @@
 
 		<table class="page_titre" style="margin-top:0">
 			<tr>
-				<td style="width:100%; text-align: center">
+				<td style="width:5%"></td>
+				<td style="width:95%;">
 					Language de programation
 				</td>
 			</tr>
 		</table>
-
 		<table class="page_contenu">
 			<tr>
-				<td style="width:100%;text-align: center">
-
+				<td style="width:5%;"></td>
+				<td style="width:95%;">
+					<div>J'ai opté pour la réalisation de ce site vers le langage PHP5. Associé au langage SQL qui est le langage serveur permettant de gérer les données stockés en base, PHP permet de gérer dynamiquement les données du site.</div>
+					<div>J'ai développé à l'aide de mes connaissances un certain nombres d'objets, d'une utilisation simple, ces derniers me permettent d'alléger mon code et d'éviter les erreurs d'écriture puisque l'execution du code ce fait en fonction de quelques paramètres saisis dans l'objet.</div>
 				</td>
 			</tr>
 		</table>
