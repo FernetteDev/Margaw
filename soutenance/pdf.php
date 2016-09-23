@@ -1,9 +1,7 @@
 <?php
-	require('inc/class_php/class/Divers/autoload.php');
-	autoload\Autoloader::register();
+	//require('inc/class_php/class/Divers/autoload.php');
+	//autoload\Autoloader::register();
 	require('inc/html2pdf/vendor/autoload.php');
-	$oConnexion = new Database\Connexion();
-	$requete = $oConnexion->query('SELECT * FROM soutenance_renseigement_doranco ORDER BY id ASC');
 	ob_start();
 ?>
 	<style>
@@ -43,7 +41,6 @@
 		.blue {
 			color: royalblue;
 		}
-
 	</style>
 
 	<page pageset="new" class="couverture" style="text-align: center;" backtop="80px" backbottom="100px" backleft="30px" backright="30px">
@@ -74,11 +71,31 @@
 		</table>
 		<page_footer style="text-align: center;">
 			<table>
-				<tr><td style="font-size=10pt;width:100%; color: red;"><?php echo $requete[0]['nom'] ?></td></tr>
-				<tr><td style="font-size=10pt;color: darkred"><?php echo $requete[0]['titre'] ?></td></tr>
-				<tr><td style="font-size:8pt"><?php echo $requete[0]['adress_et_num'] ?></td></tr>
-				<tr><td style="font-size:8pt"><?php echo $requete[0]['email'] ?></td></tr>
-				<tr><td style="font-size:8pt"><?php echo $requete[0]['APE_SIRET'] ?></td></tr>
+				<tr>
+					<td style="font-size=10pt;width:100%; color: red;">
+						DORANCO ESPACE MULTIMEDIA
+					</td>
+				</tr>
+				<tr>
+					<td style="font-size=10pt;color: darkred">
+						ORGANISME DE FORMATION & ETABLISSEMENT D'ENSEIGNEMENT SUPERIEUR TECHNIQUE PRIVE
+					</td>
+				</tr>
+				<tr>
+					<td style="font-size:8pt">
+						10-12 RUE PLANCHAT | 75020 PARIS | TEL 01 55 25 28 00 | FAX 01 55 25 20 15
+					</td>
+				</tr>
+				<tr>
+					<td style="font-size:8pt">
+						look@doranco.fr - www.doranco.fr
+					</td>
+				</tr>
+				<tr>
+					<td style="font-size:8pt">
+						© DORANCO Espace Multimédia - Centre de Formation n°11751937075 - APE 8559A SIRET 389 358 854 00054
+					</td>
+				</tr>
 			</table>
 		</page_footer>
 	</page>
@@ -734,7 +751,7 @@
 			<tr>
 				<td style="width:5%;"></td>
 				<td style="width:95%;">
-					<div>J'ai opté pour la réalisation de ce site vers le langage PHP5. Associé au langage SQL qui est le langage serveur permettant de gérer les données stockés en base, PHP permet de gérer dynamiquement les données du site.</div>
+					<div>J'ai opté pour la réalisation de ce site vers le langage PHP5. Associé au langage SQL qui est le langage serveur permettant de gérer les données stockés en base, PHP permet de gérer dynamiquement les données du site.</div><br>
 					<div>J'ai développé à l'aide de mes connaissances un certain nombres d'objets, d'une utilisation simple, ces derniers me permettent d'alléger mon code et d'éviter les erreurs d'écriture puisque l'execution du code ce fait en fonction de quelques paramètres saisis dans l'objet.</div>
 				</td>
 			</tr>
@@ -748,7 +765,6 @@
 				</tr>
 			</table>
 		</page_footer>
-
 	</page>
 
 
