@@ -49,11 +49,11 @@
 	</article>
 	<article id="chap3" class="hide">
 		<p>Remerciement de l'auteur :</p>
-		<p>Merci à David FARGIER aka "Vents d’Orage" pour ses mots et ses conseils précieux qui ont permis entre autres choses la description de MarGaW.</p>
+		<p>Merci à ########### pour ses mots et ses conseils précieux qui ont permis entre autres choses la description de MarGaW.</p>
 		<br>
 		<p>Merci à ma famille et mes amis qui ont pu suivre le cheminement de MarGaW de près ou de loin.</p>
 		<br>
-		<p>Merci à Frédéric FERNETTE ('Fernette Développement') pour son incroyable patience dans la construction du site, d’avoir pu lui donner cette ambiance propre à MarGaW.</p>
+		<p>Merci à Frédéric FERNETTE pour son incroyable patience dans la construction du site, d’avoir pu lui donner cette ambiance propre à MarGaW.</p>
 		<br>
 		<p>L’aventure ne fait que commencer…</p>
 		<br>
