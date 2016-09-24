@@ -208,7 +208,7 @@
 				<td></td>
 				<td>- Hébergement</td>
 				<td>...............................................................</td>
-				<td>Page</td>
+				<td>Page 13</td>
 			</tr>
 		</table>
 
@@ -223,7 +223,7 @@
 				<td style="width:5%;"></td>
 				<td style="width:35%;">- Coût / investissement</td>
 				<td style="width:50%;">...............................................................</td>
-				<td style="width:10%;">Page</td>
+				<td style="width:10%;">Page 14</td>
 			</tr>
 		</table>
 
@@ -238,13 +238,13 @@
 				<td style="width:5%;"></td>
 				<td style="width:35%;">- Conclusion</td>
 				<td style="width:50%;">...............................................................</td>
-				<td style="width:10%;">Page</td>
+				<td style="width:10%;">Page 14</td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>- Remerciement</td>
 				<td>...............................................................</td>
-				<td>Page</td>
+				<td>Page 15</td>
 			</tr>
 		</table>
 
@@ -311,13 +311,17 @@
 		<table class="page_contenu">
 			<tr>
 				<td style="width:5%;"></td>
-				<td>Cursus: Diplomé du CAP & BEP Hotellerie - Restauration</td>
+				<td>
+					<span class="blue">Cursus :</span><br>
+					Diplomé du CAP & BEP Hotellerie - Restauration
+				</td>
 			</tr>
 			<tr>
 				<td></td>
 				<td style="width:95%;">
-					Evolution actuelle : Ancien cuisinier de formation, j'ai toujours eu une grande passion pour l'informatique. Suite à
-					divers évènement personnel, j'ai donc choisi de prendre un tournant dans ma carrière professionnelle.
+					<span class="blue">Evolution actuelle :</span><br>
+					Ancien cuisinier de formation, j'ai toujours eu une grande passion pour l'informatique. Suite à
+					divers évènements personnel, j'ai donc choisi de prendre un tournant dans ma carrière professionnelle.
 					J'ai donc choisi de repartir dans la formation d'une branche qui me passionne.
 					Pour cela, j'ai donc choisi le centre Doranco pour effectuer ma formation et depuis Septembre 2015.
 					Je cherche donc à augmenter mes compétences afin d'être en phase avec à la fois le marché du travail et la voix professionnelle que j'ai choisi, ce que je vais développer tout au long de ce projet.
@@ -340,8 +344,8 @@
 			<tr>
 				<td style="width:5%"></td>
 				<td style="width:95%">
-					L'adresse du site web : http://margaw.livehost.fr<br><br>
-					Le site porte le nom du protagoniste : Margaw. On va y suivre durant neuf chapitre cette personne aux idées noire dont on ne sait rien du tout.
+					<span class="blue">L'adresse du site web :</span><br> http://margaw.livehost.fr<br><br>
+					Le site porte le nom du protagoniste : "Margaw". On va y suivre durant neuf chapitres cette personne aux idées noire dont on ne sait rien du tout.
 				</td>
 			</tr>
 		</table>
@@ -375,7 +379,7 @@
 			<tr>
 				<td style="width:5%"></td>
 				<td style="width:95%">
-					Le site à pour objectif de permettre à l'auteur de conter l'histoire de Margaw un personnage énigmatique aux pensées noire aux travers de neuf chapitres.
+					Le site à pour objectif de permettre à l'auteur de conter l'histoire de Margaw un personnage énigmatique.
 				</td>
 			</tr>
 		</table>
@@ -420,6 +424,9 @@
 					<img src="inc/img/zoning.jpg" style="width:80%; margin-left: 70px;" alt="">
 				</td>
 			</tr>
+			<tr>
+				<td style="font-size: 10px; text-align: center">Présentation des zones du site</td>
+			</tr>
 		</table>
 
 		<page_footer>
@@ -451,6 +458,11 @@
 			<tr>
 				<td style="width:100%">
 					<img src="inc/img/arborescence.jpg" style="width:80%; margin-left: 70px;" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td style="font-size: 10px; text-align: center">
+					Shéma de l'arborescence et des différents points de connection à la base de données
 				</td>
 			</tr>
 		</table>
@@ -490,7 +502,7 @@
 			<tr>
 				<td style="width:5%"></td>
 				<td style="width:95%">
-					Afin de réaliser ce site, et de mettre en pratique les connaissances aquisent tout au long de cette année au sein du centre de formation Doranco j'ai choisi le langage de programmation HTML5/CSS3 et PHP5 afin de pouvoir rendre le site dynamique de façon à ce que le site puisse être gérer entièrement par son propiétaire.
+					Afin de réaliser ce site, et de mettre en pratique les connaissances aquisent tout au long de cette année au sein du centre de formation Doranco, j'ai choisi le langage de programmation HTML5/CSS3 et PHP5 afin de pouvoir rendre le site dynamique de façon à ce que le site puisse être gérer entièrement par son propiétaire.
 				</td>
 			</tr>
 		</table>
@@ -509,8 +521,8 @@
 				<td style="width:95%">
 					J'ai envisagé trois façons de développer ce projet, en CMS, à l'aide d'un framework, ou "à l'ancienne".<br>
 					Je n'ai pas choisi le CMS car développer un site sans n'avoir rien d'autre à faire que de l'installer, je ne considère pas cela comme le travaille du développeur que j'aspire devenir.<br>
-					La maîtrise d'au moins un framework étant très apprécié auprès des entreprises j'aurais pu choisir travailler ainsi, cependant je tenais à montrer mes capacités de développeur.<br>
-					J'ai donc développé ce site "à la main", sans autres aide que les connaissances acquisent auprès du centre de formation Doranco, du travail effectué en entreprise auprès de l'équipe de Isart Digital et en particulier de mon tuteur de stage Mr Louis Nicolas, ainsi que des nombreuses heures que j'ai passé en recherche et auto-formation.
+					La maîtrise d'au moins un framework étant très apprécié auprès des entreprises j'aurais pu choisir travailler ainsi, cependant je tenais à montrer mes capacités de développeur.<br><br>
+					J'ai donc développé ce site "à la main", sans autres aide que les connaissances acquisent auprès du centre de formation Doranco, du travail effectué en entreprise auprès de l'équipe de IASRT Digital et en particulier de mon tuteur de stage Mr Louis Nicolas, ainsi que des nombreuses heures que j'ai passé en recherche et auto-formation.
 				</td>
 			</tr>
 		</table>
@@ -529,7 +541,7 @@
 				<td style="width:5%"></td>
 				<td style="width:95%">
 					Ayant une soif d'apprendre permanente, ce projet est (ou seront pour certain de mes prochains projets) en partage collaboratif via Github.<br>
-					Je remercie vraiment Mr Louis Nicolas pour sa très grande sensibilisation à l'utilisation de Git et la ligne de commande car cela m'a permis durant mon stage de pouvoir travailler en collaboration avec le reste de l'équipe et cela à permis la réalisation du projet défini lors de l'entretien et de le mettre en place au sein de l'entreprise Isart Digital.
+					Je remercie vraiment Mr Louis Nicolas pour sa très grande sensibilisation à l'utilisation de Git et la ligne de commande car cela m'a permis durant mon stage de pouvoir travailler en collaboration avec le reste de l'équipe et cela à permis la réalisation du projet défini lors de l'entretien et de le mettre en place au sein de l'entreprise ISART Digital.
 				</td>
 			</tr>
 		</table>
@@ -559,14 +571,17 @@
 				<td style="width:95%">Charte graphique</td>
 			</tr>
 		</table>
-		<table class="page_contenu" style="margin-top:20px">
+		<table class="page_contenu" style="margin-top:20px;text-align: center">
 			<tr>
-				<td style="width:100%;text-align: center">
+				<td style="width:100%">
 					<img src="inc/img/logo_margaw.png" alt="">
 				</td>
 			</tr>
+			<tr>
+				<td style="font-size: 10px">Logo créé sur Illustrator</td>
+			</tr>
 		</table>
-		<table class="page_contenu" style="margin-top:20px">
+		<table class="page_contenu" style="margin-top:30px">
 			<tr>
 				<td style="width:5%"></td>
 				<td style="width:95%">
@@ -644,13 +659,13 @@
 					<div>Toutes les variables sont initialisé dans le constructeur et devraient donc théoriquement être exécuter à la suite. Cependant nous utiliserons la portée de la variable "$this->" afin de pourvoir utiliser deux des quatre variables dans le destructeur.</div><br>
 					<div>Dans la deuxième image je montrerais donc l'utilisation de l'objet.</div>
 					<div>Le site étant de petite envergure, à but non lucratif et n'ayant pas vocation à s'étendre beaucoup plus, il n'était pas nécessaire de créer un objet complexe.
-					En effet, l'avantage de ce "petit objet" est que tous les éléments dont nous avons besoin se trouvent directement à l'initialisation de l'objet.</div><br>
+						En effet, l'avantage de ce "petit objet" est que tous les éléments dont nous avons besoin se trouvent directement à l'initialisation de l'objet.</div><br>
 					<div>J'ai pour les besoins de la présentation "aéré" un peu plus l'objet en lui même et l'objet utilisé afin de bien montrer comment les différents paramètres sont appelé.</div>
 					<div>Concernant le quatrième paramètre, tous les scripts quels qu'ils soient doivent être inscrit dans entre les mêmes guillemets, en effet si ce n'est pas le cas l'objet considèrera qu'il ya plus de paramètre. Afin d'éviter cela il est conseillé soit d'alterner avec les guillemets et les doubles-guillemets, soit d'utiliser des anti-slash.</div>
 				</td>
 			</tr>
 		</table>
-		
+
 		<page_footer>
 			<table style="text-align: right;">
 				<tr>
@@ -743,7 +758,7 @@
 			<tr>
 				<td style="width:5%"></td>
 				<td style="width:95%;">
-					Language de programation
+					Langage de programation
 				</td>
 			</tr>
 		</table>
@@ -751,11 +766,32 @@
 			<tr>
 				<td style="width:5%;"></td>
 				<td style="width:95%;">
-					<div>J'ai opté pour la réalisation de ce site vers le langage PHP5. Associé au langage SQL qui est le langage serveur permettant de gérer les données stockés en base, PHP permet de gérer dynamiquement les données du site.</div><br>
-					<div>J'ai développé à l'aide de mes connaissances un certain nombres d'objets, d'une utilisation simple, ces derniers me permettent d'alléger mon code et d'éviter les erreurs d'écriture puisque l'execution du code ce fait en fonction de quelques paramètres saisis dans l'objet.</div>
+					<div>
+						Pour la réalisation de ce site, j'ai opté pour le langage PHP5. Associé au langage SQL, qui est le langage serveur permettant de gérer les données stockés en base, PHP5 permet de gérer dynamiquement les données du site.
+					</div><br>
+					<div>
+						J'ai développé à l'aide de mes connaissances un certain nombres d'objets, d'une utilisation simple, ces derniers me permettent d'alléger mon code et d'éviter les erreurs d'écriture puisque l'execution du code ce fait en fonction de quelques paramètres saisis dans l'objet.
+					</div><br>
+					<div>
+						PHP est un langage dit : "open source", ce qui peut me permettre à l'avenir de partager, sur des plates formes tel que GITHUB par exemple, tout ou partie de mon code afin de pouvoir l'améliorer en collaboration avec les personnes qui souhaiterons intéragir avec moi et me proposer leurs éventuelles améliorations.
+					</div><br>
 				</td>
 			</tr>
 		</table>
+		<table class="page_contenu" style="text-align:center">
+			<tr>
+				<td style="width:100%;">
+					<img src="inc/img/js_vs_php.jpg" style="width: 80%;" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td style="font-size:10px">
+					Le choix de la navigation, entre code en dure sur JS et choix dynamique sur PHP.
+				</td>
+			</tr>
+		</table>
+
+
 
 		<page_footer>
 			<table style="text-align: right;">
@@ -767,7 +803,250 @@
 		</page_footer>
 	</page>
 
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
 
+		<page_header></page_header>
+
+		<table class="page_contenu" style="margin-top:0">
+			<tr>
+				<td style="width:5%;"></td>
+				<td style="width:95%;">
+					<div>
+						Afin de gérer l'aspect du site j'ai donc recouru aux langages HTML5/CSS3 qui permettent de gérer le côté front-end (design) du site.<br>
+						Les nouvelles balises HTML5 permettent une meilleur hiérarchisation de la structure pour une lecture plus claire du code. <br>
+						Le CSS3 permet de gérer tout le côté design du site en donnant "forme" aux balises.
+					</div><br>
+					<div>
+						J'y ai aussi développer un peu de javascript, le site n'étant pas de grande envergure, et le propriétaire ne souhaitant pas y inclure d'animation même simple, je me suis contenté de quelques options montrant essenciellement où est-ce que nous nous situons dans le site ou dans las chapitres pour assurer un suivi de la lecture de l'utilisateur.
+					</div><br>
+					<div>
+						La page "Des nouvelles de MarGaW" est, contrairement aux autres, écrite en "dure". En effet à terme cette page deviendra une page dynamique mais j'ai préféré exploiter le langage Javascript pour la gestion de cette page.
+					</div><br>
+					<div>
+						Nous pouvons aussi trouver, dans la page "Et l'auteur", dans l'onglet commentaire, un "livre d'or" permettant aux lecteurs de laisser un message à l'auteur sur le site.
+						<br><br>
+						A ce titre, pour laisser un message à l'auteur j'ai opté pour un éditeur WYSIWIG tel que CKEditor.
+						<br>
+						L'avantage d'un éditeur tel que celui là est qu'il est dans un premier temps paramétrable, ce qui m'a permis déjà d'avoir un choix très précis de ce que je veux laisser comme choix d'action à l'utilisateur, et dans un deuxième temps, la sécurité est assuré par l'éditeur de texte en lui même.
+						<br><br>
+						j'ai aussi inclus un contrôle simple de champs de texte en Javascript afin d'indiquer à l'utilisateur s'il passe dessus si le champs est vide ou pas, ce qui lui évitera un rechargement de la page s'il oublie de renseigner son nom.
+					</div><br>
+					<div>
+						Enfin pour évoquer un sujet d'actualité, je parlerai aussi des médias queries. L'auteur n'ayant pas souhaité que son oeuvre puisse être consulté sur mobile, je me suis donc uniquement contenté de quelques modifications changeant quasiment pas l'aspect du site sur tablette puisque les quelques média-queries que j'ai utilisé visaient à changer uniquement la taille du contenu principale et la taille des fonts.
+						<br>
+						N'ayant pas besoin de grand changement radicaux dans le site j'ai donc directement inclus mes média-quéries directement dans le fichier CSS d'origine.
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<table class="page_contenu" style="text-align:center; margin-top: 20px">
+			<tr>
+				<td style="width:100%;">
+					<img src="inc/img/mediaQueries.jpg" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td style="font-size:10px">
+					Extrait du fichier CSS.
+				</td>
+			</tr>
+		</table>
+
+
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 12</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+
+	</page>
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+		<page_header></page_header>
+
+		<table class="page_titre" style="margin-top:0">
+			<tr>
+				<td style="width: 5%;"></td>
+				<td style="width: 95%;">Hébergement</td>
+			</tr>
+		</table>
+		<table class="page_contenu" style="text-align:center; margin-top: 20px">
+			<tr>
+				<td style="width:100%;">
+					<img src="inc/img/livehost.jpg" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td style="font-size:10px">
+					Extrait du compte livehost.
+				</td>
+			</tr>
+		</table>
+		<table class="page_contenu" style="margin-top: 30px">
+			<tr>
+				<td style="width: 5%;"></td>
+				<td style="width: 95%">
+					<div>
+						L'auteur à préféré choisir un hébergement gratuit pour le moment, j'ai donc sélectionné l'hébergeur Livehost. <br><br>
+						N'engageant pas de coût nous avons donc choisis l'offre FREE. Le site de l'auteur étant de petite taille et avec une petite base de données très peu sollicité, le contenu du service proposé est plus que raisonnable puisque nous n'utilisons que moins de 1% de la taille du disque mis à notre disposition.
+					</div><br>
+					<div>
+						Un des avantages de cet hébergeur outre le fait qu'il soit gratuit c'est qu'il met à notre disposition dans cette offre un deuxième site et une deuxième base de donnée.
+						<br><br>
+						Concernant le deuxième site, l'avantage est que si l'auteur décide d'agrandir son site et de créer une version mobile, il nous sera donc possible de concevoir une application mobile dont nous pourrons gérer l'accès avec un fichier .HTACCESS pour la redirection. (développement avec Cordova par exemple pour une application Android)
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 13</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+	</page>
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+		<page_header></page_header>
+
+		<table class="page_section">
+			<tr>
+				<td style="width: 100%">4 - Information annexe</td>
+			</tr>
+		</table>
+		<table class="page_titre">
+			<tr>
+				<td style="width: 5%"></td>
+				<td style="width: 95%">Coût / Investissement</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width: 5%"></td>
+				<td style="width: 95%">
+					<div>
+						<span class="blue">Bilan des coûts engagés :</span>
+						<br><br>
+						-> pas de déclaration du logo
+						<br>
+						-> pas d'image particulière acheté
+						<br>
+						-> choix de l'hébergement gratuit
+					</div><br>
+					<div>
+						<span class="blue">Bilan de l'investissement personnel :</span>
+						<br><br>
+						-> 770 heures de formation au centre Doranco
+						<br>
+						-> nombre d'heures investi dans ce projet non calculé
+						<br>
+						-> nombre d'heures investi en auto-formation non calculé
+					</div><br>
+					<div>
+						<span class="blue">Bilan global :</span>
+						<br><br>
+						Tout ce temps à été nécessaire pour la réalisation de ce premier projet. Partant réellement de zéro dans cette formation, puisque toutes ces technologies développées tout au long de ce projet était pour moi inconnu il y a un ans maintenant, je considère l'aboutissement de ce projet comme la conclusion de mon investissement.
+					</div><br>
+					<div>
+						<span class="blue">Projet à venir :</span>
+						<br>
+						Je souhaite capitaliser mes acquis et continuer d'apprendre afin de gagner en efficacité pour que mes futurs projets soit viable en terme de rendement. (coût / temps de production)
+					</div><br>
+				</td>
+			</tr>
+		</table>
+
+		<table class="page_section">
+			<tr>
+				<td style="width: 100%">5 - Conclusion</td>
+			</tr>
+		</table>
+		<table class="page_titre">
+			<tr>
+				<td style="width: 5%"></td>
+				<td style="width: 95%">Conclusion</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width: 5%"></td>
+				<td style="width: 95%">
+					<div>
+						<span class="blue">Objectif :</span>
+					</div><br>
+					<div>
+						Je pense avoir atteint mon objectif de départ. J'ai souhaité démontrer au travers de ce site, les connaissances acquises en HTML / CSS, PHP et JS.
+						<br>
+						Mon investissement personnel m'a permis aussi de beaucoup mieux comprendre la POO et je vais continuer d'approfondir ce point en essayant de concevoir mon propre coeur de framework dont je vous invite a suivre l'évolution et à collaborer avec moi si vous le souhaité sur mon GITHUB.
+						<br>
+						En tant que futur développeur j'ai souhaité utiliser au minimum les outils Adobe. <br>
+						En effet, ce PDF est développé avec l'API HTML2PDF. Cependant toutes les images de ce PDF, à l'exception des logos de la page de garde et des imprim-écran, sont réalisé avec Illustrator.
+					</div><br>
+					<div>
+						<span class="blue">Bilan :</span>
+					</div><br>
+					<div>
+						Afin de pouvoir assurer un avenir professionnel, il me reste cependant beaucoup de travail à effectuer. Afin donc de pouvoir approfondir mes connaissances et mon expérience professionnelle, je suis en train de chercher une alternance pour passer la certification de Concepteur / Développeur Informatique. Le cas échéant je me lancerai dans la vie active et passerai cette certification d'ici trois ans en Validation par Acquis d'Expérience (VAE).
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 14</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+	</page>
+
+	<page pageset="new" backtop="100px" backbottom="100px" backleft="60px" backright="60px">
+		<page_header></page_header>
+
+		<table class="page_titre">
+			<tr>
+				<td style="width: 5%"></td>
+				<td style="width: 95%">Remerciement</td>
+			</tr>
+		</table>
+		<table class="page_contenu">
+			<tr>
+				<td style="width: 5%"></td>
+				<td style="width: 95%">
+					<div>
+						Je tiens à remercier toute l'équipe de Doranco ainsi que leurs intervenants extérieur pour leur patience, leur passion, leur pédagogie, ainsi que de leur disponibilité hors des cours.
+						<br><br>
+						Je remercie la direction de Doranco pour m'avoir donné les moyens de réussir cette reconversion professionnelle, tant par leur confiance et leur disponibilité que par le matériel et le choix des professionels qui nous ont encadré durant toute la formation.
+						<br><br>
+						Je remercie mes camarades de cette promotion, avec qui j'entends garder contact, de m'avoir enrichi tant sur le plan professionnel que personnel et pour m'avoir soutenu durant la formation.
+						<br><br>
+						Je tiens aussi à remercier la société ISART Digital, au travers de Mr Paul De Berranger et de Mr Nicolas Louis mon tuteur de stage, pour m'avoir permis de faire mon stage au sein de leur entreprise. J'ai grâce à eux appronfondi grandement mes connaissances mais j'ai aussi appris le travail collaboratif. J'ai aussi grâce à leur soutiens réussi à mettre en place le nouvel affichage du planning des élèves en fonction du design de leurs nouveaux locaux.
+						<br><br>
+						Enfin je remercie toutes les personnes qui m'ont soutenu et qui m'ont permis de réussir ce démarrage dans cette nouvelle carrière.
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<page_footer>
+			<table style="text-align: right;">
+				<tr>
+					<td style="width: 95%;">page 15</td>
+					<td style="width: 5%;"></td>
+				</tr>
+			</table>
+		</page_footer>
+	</page>
 
 <?php
 	$contenu = ob_get_clean();
