@@ -221,9 +221,9 @@
 		<table class="sommaire_categories">
 			<tr>
 				<td style="width:5%;"></td>
-				<td style="width:35%;">- Coût / investissement</td>
+				<td style="width:35%;">- Coût / Investissement</td>
 				<td style="width:50%;">...............................................................</td>
-				<td style="width:10%;">Page 14</td>
+				<td style="width:10.5%;">Page 14</td>
 			</tr>
 		</table>
 
