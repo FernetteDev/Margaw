@@ -2,7 +2,7 @@
 	include('../inc/php/classes/Configuration/information.php');
 	include('../inc/php/classes/Divers/autoload.php');
 
-	$oPage = new \Page\structure('Espace Administrateur', 'adminEntete.php', 'adminPied.php', '<script src="../inc/js/styles.js"></script>');
+	$oPage = new \Page\structure('Espace Administrateur', 'adminEntete.php', 'adminPied.php', '<script src="../../inc/js/styles.js"></script>');
 
 	settype($intIdReference, 'int');
 	settype($strIdReferenceError, 'string');

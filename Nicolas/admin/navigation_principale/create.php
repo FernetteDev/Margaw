@@ -1,15 +1,10 @@
 <?php
-	include('../inc/php/classes/Configuration/information.php');
-	include('../inc/php/classes/Divers/autoload.php');
-	$oPage = new \Page\structure('Espace Administrateur', 'adminEntete.php', 'adminPied.php');
-
-
 	settype($strReference, 'string');
 	settype($strReferenceErreur, 'string');
 	settype($strHide, 'string');
 	settype($strValidation, 'string');
 	settype($blnErreur, 'bool');
-
+	
 	$blnCreaRef = isset($_POST['btn']);
 	if ($blnCreaRef) {
 		$strReference = trim(strip_tags($_POST['txtReference']));
@@ -29,7 +24,7 @@
 				<a class="boutonConfirm" href="referenceCreate.php">retour à la création d'article</a>
 			</section>
 			<?php
-
+			
 		}
 	}
 ?>
