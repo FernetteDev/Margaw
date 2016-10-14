@@ -3,16 +3,9 @@
 /**
  * class unique
  */
-.hide {
-    display: none;
-}
-.italic {
-    font-style: italic;
-}
-.rose {
-    font-size: inherit;
-    color : rgb(213, 158, 200);
-}
+.hide {display: none;}
+.italic {font-style: italic;}
+.rose {font-size:inherit;color:rgb(213, 158, 200);}
 p {
     margin-bottom: 10px;
 }
@@ -35,7 +28,7 @@ html, body {
     }
 }
 html {
-    background: black url(../img/fondDecran/arcdetriomphe.jpg) no-repeat 100% 100%;
+    background: black url(../img/arcdetriomphe.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
 header, nav.nav_general {

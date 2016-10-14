@@ -6,12 +6,7 @@
 		die();
 	}
 	$intId = $_GET["id"];
-	$oPage = new \Page\structure('Espace Administrateur', 'adminEntete.php', 'adminPied.php', '*
-	<script src="../inc/js/ckeditor/ckeditor.js"></script>
-	<script>
-		$(document).ready(function(){
-        // remplacement du textarea par celui de CKEditor
-        CKEDITOR.replace(\'editeur\');
+	$oPage = new \Page\structure('Espace Administrateur', 'adminEntete.php', 'adminPied.php', ');
         // Changement de la barre de scroll verticale
 		$("article").mCustomScrollbar({
 			theme:"minimal-dark",
@@ -19,7 +14,7 @@
 			});
 		});
 	</script>
-	');
+	\'');
 	settype($strPseudo, 'string');
 	settype($strPseudoError, 'string');
 	settype($strCom, 'string');

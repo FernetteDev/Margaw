@@ -3,7 +3,7 @@
 	include('../inc/php/classes/Divers/autoload.php');
 	$intIdCategorie = isset($_GET['id']) ? (int)$_GET['id']: 0;
 	$oPage = new Page\structure('Espace Administrateur', 'adminEntete.php', 'adminPied.php', '
-	<script src="../inc/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="../../inc/js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script>
 	$(document).ready(function(){
         $("html").mCustomScrollbar({
